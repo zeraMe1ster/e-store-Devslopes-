@@ -15,6 +15,8 @@
 		C5DD508E230D2F8500791E09 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DD508D230D2F8500791E09 /* CategoryCell.swift */; };
 		C5DD5090230D33C100791E09 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DD508F230D33C100791E09 /* Category.swift */; };
 		C5DD5093230D39B400791E09 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DD5092230D39B400791E09 /* DataService.swift */; };
+		C5DD5095230E768000791E09 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DD5094230E768000791E09 /* ProductCell.swift */; };
+		C5DD5097230E78A100791E09 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DD5096230E78A100791E09 /* Product.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		C5DD508D230D2F8500791E09 /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
 		C5DD508F230D33C100791E09 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		C5DD5092230D39B400791E09 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		C5DD5094230E768000791E09 /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		C5DD5096230E78A100791E09 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				C5DD508D230D2F8500791E09 /* CategoryCell.swift */,
+				C5DD5094230E768000791E09 /* ProductCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -93,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				C5DD508F230D33C100791E09 /* Category.swift */,
+				C5DD5096230E78A100791E09 /* Product.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -179,8 +185,10 @@
 				C5BC59CD2307EE4E005578EF /* CategoriesVC.swift in Sources */,
 				C5BC59CB2307EE4E005578EF /* AppDelegate.swift in Sources */,
 				C5DD508E230D2F8500791E09 /* CategoryCell.swift in Sources */,
+				C5DD5095230E768000791E09 /* ProductCell.swift in Sources */,
 				C5DD5090230D33C100791E09 /* Category.swift in Sources */,
 				C5DD5093230D39B400791E09 /* DataService.swift in Sources */,
+				C5DD5097230E78A100791E09 /* Product.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
